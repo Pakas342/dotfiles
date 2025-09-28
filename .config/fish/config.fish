@@ -11,3 +11,6 @@ bind \cp up-or-search
 bind \cn down-or-search
 
 set fish_greeting
+
+# nvm auto-trigger
+nvm use latest --silent
