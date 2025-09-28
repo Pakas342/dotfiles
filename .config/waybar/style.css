@@ -26,6 +26,7 @@
 #cpu,
 #memory,
 #network,
+#battery,
 #tray {
   padding-left: 10px;
   padding-right: 10px;
@@ -67,6 +68,19 @@
 }
 #network.disconnected {
   color: #4c3743;
+}
+#battery {
+  background-color: #4c3743;
+  color: #d3c6aa;
+}
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #e67e80;
+  background-color: rgba(230, 126, 128, 0.2);
+}
+#tray {
+  background: #343f44;
 }
 /* -----------------------------------------------------------------------------
  * Workspaces
