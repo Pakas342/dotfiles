@@ -1,0 +1,6 @@
+[notebook]
+dir = "~/notebook"
+
+[tool]
+editor = "nvim"
+
