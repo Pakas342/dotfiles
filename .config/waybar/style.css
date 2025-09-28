@@ -26,6 +26,7 @@
 #cpu,
 #memory,
 #network,
+#battery,
 #tray {
   padding-left: 10px;
   padding-right: 10px;
@@ -78,6 +79,16 @@
 #network.disconnected {
   color: #2d353b;
   background-color: #dbbc7f;
+}
+#battery {
+  background-color: #4C3743;
+  color: #d3c6aa;
+}
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #e67e80;
+  background-color: rgba(230, 126, 128, 0.2);
 }
 #tray {
   background: #343f44;
