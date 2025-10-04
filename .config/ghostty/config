@@ -4,7 +4,7 @@
 theme = Everforest Dark   Hard
 
 # Font
-font-family = "JetBrains Mono"
+font-family = "JetBrains Mono Medium"
 
 # Background transparency and blur
 background-opacity = 0.9
