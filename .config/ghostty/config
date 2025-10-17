@@ -1,7 +1,7 @@
 # This is the configuration file for Ghostty.
 
 # Theme
-theme = Everforest Dark   Hard
+theme = Everforest Dark Hard
 
 # Font
 font-family = "JetBrains Mono Medium"
