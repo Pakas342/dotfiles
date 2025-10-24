@@ -30,7 +30,6 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 2px;
-  background: #343f44;
   border-radius: 4px;
 }
 /* -----------------------------------------------------------------------------
@@ -40,47 +39,34 @@
   font-weight: bold;
 }
 #clock.time {
-  background: #4a5c47;
   color: #a7c080;
 }
 #clock.date {
-  background: #45443c;
   color: #dbbc7f;
 }
 #cpu {
-  background: #5d4e75;
   color: #d699b6;
 }
 #cpu.warning {
   color: #2d353b;
-  background-color: #dbbc7f;
 }
 #cpu.critical {
   color: #2d353b;
-  background-color: #e67e80;
 }
 #memory {
-  background: #5d7761;
   color: #83c092;
 }
 #memory.warning {
   color: #2d353b;
-  background-color: #dbbc7f;
 }
 #memory.critical {
   color: #2d353b;
-  background-color: #e67e80;
 }
 #network {
-  background: #4d5d73;
   color: #7fbbb3;
 }
 #network.disconnected {
-  color: #2d353b;
-  background-color: #dbbc7f;
-}
-#tray {
-  background: #343f44;
+  color: #4c3743;
 }
 /* -----------------------------------------------------------------------------
  * Workspaces
