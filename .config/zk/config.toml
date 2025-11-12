@@ -3,4 +3,5 @@ dir = "~/notebook"
 
 [tool]
 editor = "nvim"
+pages = "glow"
 
