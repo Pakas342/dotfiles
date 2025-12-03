@@ -15,3 +15,5 @@ set fish_greeting
 # ENV vars
 set -gx EDITOR nvim
 set -gx MANPAGER "nvim +Man!"
+
+nvm use 25 --silent
