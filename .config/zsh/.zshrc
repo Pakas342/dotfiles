@@ -31,6 +31,7 @@ nvm() {
 }
 
 # Plugin config
+zstyle ':fzf-tab:*' fzf-bindings 'ctrl-y:accept'
 zvm_after_init() {
   bindkey '^y' autosuggest-accept
 }
