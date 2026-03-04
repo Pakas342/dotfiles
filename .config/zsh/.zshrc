@@ -35,3 +35,7 @@ zstyle ':fzf-tab:*' fzf-bindings 'ctrl-y:accept'
 zvm_after_init() {
   bindkey '^y' autosuggest-accept
 }
+
+# Vars
+export EDITOR='nvim'
+export VISUAL='nvim'
