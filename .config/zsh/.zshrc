@@ -39,3 +39,4 @@ zvm_after_init() {
 # Vars
 export EDITOR='nvim'
 export VISUAL='nvim'
+export MANPAGER='nvim +Man!'
