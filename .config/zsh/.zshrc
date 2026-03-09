@@ -36,3 +36,7 @@ zvm_after_init() {
   bindkey '^y' autosuggest-accept
 }
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Vars
+export EDITOR='nvim'
+export VISUAL='nvim'
