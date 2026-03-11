@@ -40,4 +40,6 @@ zvm_after_init() {
 export EDITOR='nvim'
 export VISUAL='nvim'
 export MANPAGER='nvim +Man!'
-export VIMINIT='source ~/.config/vim/vimrc'
+
+# Alias
+alias vim='VIMINIT="source ~/.config/vim/vimrc" vim'
