@@ -35,9 +35,11 @@ zstyle ':fzf-tab:*' fzf-bindings 'ctrl-y:accept'
 zvm_after_init() {
   bindkey '^y' autosuggest-accept
 }
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Vars
+# ENV Vars
 export EDITOR='nvim'
 export VISUAL='nvim'
 export MANPAGER='nvim +Man!'
+
+# Alias
+alias vim='VIMINIT="source ~/.config/vim/vimrc" vim'
