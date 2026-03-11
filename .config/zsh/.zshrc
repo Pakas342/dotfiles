@@ -36,7 +36,8 @@ zvm_after_init() {
   bindkey '^y' autosuggest-accept
 }
 
-# Vars
+# ENV Vars
 export EDITOR='nvim'
 export VISUAL='nvim'
 export MANPAGER='nvim +Man!'
+export VIMINIT='source ~/.config/vim/vimrc'
