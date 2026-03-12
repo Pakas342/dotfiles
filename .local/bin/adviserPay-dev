@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd ~/work/adviceflow/adviser-pay/front-end/ || cd ~/work/adviceflow/adviser-pay/ || exit
+nvm use
+
+tmux new-session -d -s adviser-pay
+tmux send-keys -t adviser-pay 'npm run dev' Enter
+tmux new-window -t adviser-pay
+tmux send-keys -t adviser-pay 'nvim' Enter
+tmux new-window -t adviser-pay
+tmux send-keys -t adviser-pay 'claude' Enter
+
+tmux a -t adviser-pay:2
