@@ -40,6 +40,9 @@ zvm_after_init() {
 export EDITOR='nvim'
 export VISUAL='nvim'
 export MANPAGER='nvim +Man!'
+export PATH="$HOME/.local/bin:$PATH"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
 
 # Alias
 alias vim='VIMINIT="source ~/.config/vim/vimrc" vim'
